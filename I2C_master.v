@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: Nilesh Poojari
+// Engineer: Pavan Prakash and Nilesh Poojari
 // 
 // Create Date: 18.11.2023 22:02:27
 // Design Name: 
