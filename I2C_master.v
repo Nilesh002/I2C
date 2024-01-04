@@ -350,7 +350,7 @@ end
 			  status_reg[1] <= 1'b0;
 		      status_reg[2] <= 1'b0;
 		      status_reg[3] <= 1'b0;
-		      status_reg[4] <= 1'b1;
+		      status_reg[4] <= 1'b0;
 		      status_reg[5] <= 1'b0;
 		      status_reg[6] <= 1'b0;  end
 	   else begin
@@ -467,8 +467,8 @@ end
 			  status_reg[1] <= rw;
 		      status_reg[2] <= xrdy;
 		      status_reg[3] <= Rrdy;
-		      status_reg[4] <= 1'b1;
-		      status_reg[5] <= 1'b1;
+              	      status_reg[4] <= 1'b0;
+		      status_reg[5] <= 1'b0;
 		      status_reg[6] <= NackRcvd;
 			  end
 			  
